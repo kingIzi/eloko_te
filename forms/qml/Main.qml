@@ -53,8 +53,8 @@ ApplicationWindow {
         visible: true
         active: visible
         //state: _admin.isLoggedIn ? "Home" : "Default"
+        state: "Home"
         //state: "Admin"
-        state: "Admin"
         sourceComponent: _registration
         states: [
             State {
